@@ -1,10 +1,10 @@
-import { Suspense, useCallback, useState } from 'react';
+import { Grid, OrbitControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Grid } from '@react-three/drei';
+import { Suspense, useState } from 'react';
 import * as THREE from 'three';
-import PointCloudMesh from './PointCloudMesh';
-import CameraTracker from './CameraTracker';
 import type { CameraReadout, CloudStats, LoadStatus, ViewerSettings } from '../types';
+import CameraTracker from './CameraTracker';
+import PointCloudMesh from './PointCloudMesh';
 
 interface Props {
   geometry: THREE.BufferGeometry | null;

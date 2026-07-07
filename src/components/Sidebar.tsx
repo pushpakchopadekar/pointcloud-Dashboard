@@ -55,7 +55,7 @@ function SliderRow({
 }
 
 const COLOR_MODES: { id: ViewerSettings['colorMode']; label: string }[] = [
-  
+  { id: 'elevation', label: 'Elevation' },
   { id: 'rgb', label: 'Scan RGB' },
   { id: 'solid', label: 'Solid' },
 ];

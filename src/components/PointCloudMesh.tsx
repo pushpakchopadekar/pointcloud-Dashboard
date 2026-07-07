@@ -1,4 +1,4 @@
-import { useMemo, useRef, useEffect } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import * as THREE from 'three';
 import type { ViewerSettings } from '../types';
 

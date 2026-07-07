@@ -1,8 +1,8 @@
 import { useCallback, useState } from 'react';
 import Header from './components/Header';
+import InfoPanel from './components/InfoPanel';
 import Sidebar from './components/Sidebar';
 import Viewer from './components/Viewer';
-import InfoPanel from './components/InfoPanel';
 import { usePointCloud } from './hooks/usePointCloud';
 import { DEFAULT_SETTINGS, type CameraReadout, type ViewerSettings } from './types';
 

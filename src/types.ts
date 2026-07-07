@@ -31,6 +31,6 @@ export const DEFAULT_SETTINGS: ViewerSettings = {
   pointSize: 0.015,
   opacity: 1,
   backgroundColor: '#0b0e14',
-  colorMode: 'solid',
-  solidColor: '#4fd1c5',
+  colorMode: 'rgb',
+  solidColor: 'rgb',
 };
