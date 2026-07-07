@@ -7,7 +7,7 @@ A React-based 3D Point Cloud Dashboard built using **React.js**, **TypeScript**,
 ## 🌐 Live Demo
 
 **Netlify:**  
-https://silly-unicorn-1ea705.netlify.app/
+https://fastidious-conkies-74b84f.netlify.app/
 
 ---
 
